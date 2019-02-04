@@ -15,7 +15,7 @@ class CreateCollection extends Component {
     e.preventDefault();
     // console.log(this.state);
     this.props.createCollection(this.state);
-    this.props.history.push('/');
+    this.props.history.push('/restaurant-frontend-gene');
   }
   render() {
     return (

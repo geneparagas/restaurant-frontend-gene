@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="nav-wrapper grey darken-3">
       <div className="container">
-        <Link to='/' className="brand-logo">Restaurant-app</Link>
+        <Link to='/restaurant-frontend-gene' className="brand-logo">Restaurant-app</Link>
         <ul className="right">
         <li><NavLink className="btn red pulse" to='/create'>Add Collection</NavLink></li>
       </ul>
