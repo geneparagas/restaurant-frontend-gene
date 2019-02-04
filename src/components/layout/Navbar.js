@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container">
         <Link to='/restaurant-frontend-gene' className="brand-logo">Restaurant-app</Link>
         <ul className="right">
-        <li><NavLink className="btn red pulse" to='/create'>Add Collection</NavLink></li>
+        <li><NavLink className="btn red pulse" to='/restaurant-frontend-gene/create'>Add Collection</NavLink></li>
       </ul>
       </div>
     </nav>

@@ -15,10 +15,10 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route exact path='/restaurant-frontend-gene'component={Dashboard} />
-            <Route path='/project/:id' component={ProjectDetails} />
-            <Route path='/addfavorite/:id' component={AddFavorite} />
-            <Route path='/create' component={CreateCollection} />
-            <Route path='/Send-email/:userid' component={SendEmail} />
+            <Route path='/restaurant-frontend-gene/project/:id' component={ProjectDetails} />
+            <Route path='/restaurant-frontend-gene/addfavorite/:id' component={AddFavorite} />
+            <Route path='/restaurant-frontend-gene/create' component={CreateCollection} />
+            <Route path='/restaurant-frontend-gene/Send-email/:userid' component={SendEmail} />
           </Switch>
         </div>
       </BrowserRouter>

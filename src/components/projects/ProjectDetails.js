@@ -19,7 +19,7 @@ const ProjectDetails = (props) => {
           <div className="card-content">
             <span className="card-title left">{project.collection}</span>
             <EditCollection name={project.collection} collection={id} />
-            <Link className="waves-effect waves-light right btn green" to={'/Send-email/' + id}>Share <i className="material-icons right">send</i></Link>
+            <Link className="waves-effect waves-light right btn green" to={'/restaurant-frontend-gene/Send-email/' + id}>Share <i className="material-icons right">send</i></Link>
           </div>
           <div className="card-content">
             <FavoriteList favorites={favorites} collection={id} restaurants={restaurants} />

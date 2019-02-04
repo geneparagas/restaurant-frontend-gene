@@ -39,7 +39,7 @@ class SendEmailForm extends Component {
 
 	renderRedirect = () => {
     if (this.state.redirect) {
-      return <Redirect to={'/project/' + this.props.userid} />
+      return <Redirect to={'/restaurant-frontend-gene/project/' + this.props.userid} />
     }
   }
 

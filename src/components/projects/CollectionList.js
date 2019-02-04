@@ -7,7 +7,7 @@ const CollectionList = ({ collections }) => {
     <div className="project-list section">
       {collections && collections.map(project => {
         return (
-          <Link to={"/project/" + project.id} key={project.id}>
+          <Link to={"/restaurant-frontend-gene/project/" + project.id} key={project.id}>
               <CollectionSummary project={project} key={project.id} />
             </Link>
         )
