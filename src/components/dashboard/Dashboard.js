@@ -18,7 +18,7 @@ class Dashboard extends Component {
             <ProjectList restaurants={restaurants} />
           </div>
           <div className="col s12 m5 offset-m1">
-           <div className="white-text"><h4 className="remove-margin-bottom teal-text darken-2">Collections <Link className="btn-floating btn pulse" to='/create'><i className="material-icons">add</i></Link></h4></div>
+           <div className="white-text"><h4 className="remove-margin-bottom teal-text darken-2">Collections <Link className="btn-floating btn pulse" to='/restaurant-frontend-gene/create'><i className="material-icons">add</i></Link></h4></div>
               <CollectionList collections={collections} />
           </div>
         </div>
