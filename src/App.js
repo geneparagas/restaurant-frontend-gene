@@ -14,7 +14,7 @@ class App extends Component {
         <div className="App">
           <Navbar />
           <Switch>
-            <Route exact path='/'component={Dashboard} />
+            <Route exact path='/restaurant-frontend-gene'component={Dashboard} />
             <Route path='/project/:id' component={ProjectDetails} />
             <Route path='/addfavorite/:id' component={AddFavorite} />
             <Route path='/create' component={CreateCollection} />
