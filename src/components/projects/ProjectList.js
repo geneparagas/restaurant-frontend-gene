@@ -16,8 +16,7 @@ class ProjectList extends Component {
       searchString = this.state.searchString.trim().toLowerCase();
     if (searchString.length > 0) {
       restaurants = restaurants.filter(function (i) {
-        return i.restaurant.toLowerCase().match(searchString),
-          i.time.toLowerCase().match(searchString);
+        return i.restaurant.toLowerCase().match(searchString)
       });
     }
     var searchTime = this.state.searchTime.trim().toLowerCase();
